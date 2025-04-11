@@ -1,0 +1,13 @@
+VBA code
+Private Sub CommandButton1_Click()
+Range("a1").Value = TextBox1
+Range("b1").Value = TextBox2
+Range("c1").Value = TextBox3
+End Sub
+
+Private Sub CommandButton2_Click()
+TextBox1 = " "
+TextBox2 = " "
+TextBox3 = " "
+End Sub
+
